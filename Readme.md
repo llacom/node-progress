@@ -33,7 +33,7 @@ These are keys in the options object you can pass to the progress bar along with
 - `total` total number of ticks to complete
 - `width` the displayed width of the progress bar defaulting to total
 - `stream` the output stream defaulting to stderr
-- `complete` completion character defaulting to "="
+- `complete` completion character defaulting to "=", can be a string in which case the first character will be repeated as needed
 - `incomplete` incomplete character defaulting to "-"
 - `renderThrottle` minimum time between updates in milliseconds defaulting to 16
 - `clear` option to clear the bar on completion defaulting to false
