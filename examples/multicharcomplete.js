@@ -2,7 +2,7 @@ var ProgressBar = require('../');
 
 var bar = new ProgressBar(' [:bar]', {
     complete: '.insert text here'
-  , incomplete: ' '
+  , incomplete: '.'
   , width: 100
   , total: 100
 });
