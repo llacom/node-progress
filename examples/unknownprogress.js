@@ -8,7 +8,6 @@ var ProgressBar = require('../');
 // simulated download, passing the chunk lengths to tick()
 
 var bar = new ProgressBar(' [:wheel] [:bar] :actual / ?', {
-    /* complete: ' insert text here' */
     complete: ' --->'
   , incomplete: ' '
   , width: 100
